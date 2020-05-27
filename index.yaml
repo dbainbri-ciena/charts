@@ -1,0 +1,81 @@
+apiVersion: v1
+entries:
+  bbsim:
+  - appVersion: 0.2.2
+    created: "2020-05-26T23:11:41.070836781-07:00"
+    description: Broadband Simulator
+    digest: ae9ca140e1653403eada056929c0b46d850f5434145f3d9f18835a95b56e8cf9
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: bbsim
+    urls:
+    - bbsim-3.0.25.tgz
+    version: 3.0.25
+  bbsim-sadis-server:
+  - created: "2020-05-26T23:11:41.071176542-07:00"
+    description: A Helm chart for Voltha's BBSIM SADIS Server
+    digest: fc8fd3d5a41a106a34e3f1910cae0d45d367163454b12d7392f3d7690326b8a5
+    icon: https://guide.opencord.org/logos/voltha.svg
+    name: bbsim-sadis-server
+    urls:
+    - bbsim-sadis-server-1.0.1.tgz
+    version: 1.0.1
+  freeradius:
+  - appVersion: 2.2.9
+    created: "2020-05-26T23:11:41.071547814-07:00"
+    description: A Helm chart to deploy an example RADIUS server
+    digest: 1d3469621be40e0cc1b97d7369c649c5bcab9eadee5c45c3be81e84dfda55a6c
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: freeradius
+    urls:
+    - freeradius-1.0.1.tgz
+    version: 1.0.1
+  voltha:
+  - appVersion: "2.4"
+    created: "2020-05-26T23:11:41.078801925-07:00"
+    description: A Helm chart for Voltha based on K8S resources in Voltha project
+    digest: 9105c41c9d5046ca26ef3f6d16e4a40ea4ea57fb854ee20188a1fa3ad2c90b00
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: voltha
+    urls:
+    - voltha-2.4.7.tgz
+    version: 2.4.7
+  voltha-adapter-openolt:
+  - appVersion: 2.4.1
+    created: "2020-05-26T23:11:41.079092126-07:00"
+    description: A Helm chart for Voltha OpenOLT Adapter
+    digest: 6cfa76d9042bfaab53c90b175962d84bc991152c7f5f608a4ad5482826e175b0
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: voltha-adapter-openolt
+    urls:
+    - voltha-adapter-openolt-2.4.3.tgz
+    version: 2.4.3
+  voltha-adapter-openonu:
+  - created: "2020-05-26T23:11:41.079360071-07:00"
+    description: A Helm chart for Voltha OpenONU Adapter
+    digest: eea781b546cb197d393f6c3b9387952d1c5fa8b9f58d70ff4164088408e675fc
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: voltha-adapter-openonu
+    urls:
+    - voltha-adapter-openonu-2.3.7.tgz
+    version: 2.3.7
+  voltha-environment:
+  - appVersion: "2.4"
+    created: "2020-05-26T23:11:41.083193629-07:00"
+    description: Chart for deploying VOLTHA dependencies for an environment
+    digest: 180c00ce7c220db27d363ab2b635a7b766cc36e293544b0ae9d7a7a60cfc1f1d
+    icon: https://guide.opencord.org/logos/voltha.svg
+    name: voltha-environment
+    urls:
+    - voltha-environment-0.0.1.tgz
+    version: 0.0.1
+  voltha-stack:
+  - appVersion: "2.4"
+    created: "2020-05-26T23:11:41.087382903-07:00"
+    description: Chart for deploying a VOLTHA stack
+    digest: 454213eab889bdaf618e1e0f75a4ac06a7e5a43ce7bf4c81ad482ed85d2f60e2
+    icon: https://guide.opencord.org/logos/voltha.svg
+    name: voltha-stack
+    urls:
+    - voltha-stack-0.0.1.tgz
+    version: 0.0.1
+generated: "2020-05-26T23:11:41.070068706-07:00"
